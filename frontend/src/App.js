@@ -8,7 +8,7 @@ import './App.css';
 
 function App() {
   return (
-    <AuthProvider> {/* Wrap everything in the provider */}
+    <AuthProvider>
       <Router>
         <div className="App">
           <Routes>

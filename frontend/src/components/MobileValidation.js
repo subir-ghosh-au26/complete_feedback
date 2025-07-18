@@ -4,7 +4,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import Navbar from './Navbar';
 
-const API_URL = 'http://localhost:5001/api';
+const API_URL = 'https://complete-feedback.onrender.com/api';
 
 const MobileValidation = () => {
     const [mobile, setMobile] = useState('');

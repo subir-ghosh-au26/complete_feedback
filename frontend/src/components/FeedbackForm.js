@@ -4,7 +4,7 @@ import { useLocation, Navigate } from 'react-router-dom';
 import StarRating from './StarRating';
 import Navbar from './Navbar';
 
-const API_URL = 'http://localhost:5001/api';
+const API_URL = 'https://complete-feedback.onrender.com/api';
 
 const FeedbackForm = () => {
     const location = useLocation();

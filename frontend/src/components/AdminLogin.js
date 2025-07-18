@@ -12,7 +12,7 @@ const AdminLogin = () => {
         e.preventDefault();
         const isLoggedIn = login(key);
         if (isLoggedIn) {
-            navigate('/'); // Redirect to home page after successful login
+            navigate('/');
         } else {
             setError('Invalid Admin Key. Please try again.');
         }
