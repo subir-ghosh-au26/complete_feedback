@@ -1,0 +1,143 @@
+/* Global styles for the entire app */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  margin: 0;
+  /* Pushes content below the fixed navbar. Calculated from navbar height */
+  padding-top: 82px;
+}
+
+/* The main container for our page content */
+.content-container {
+  background-color: #fff;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin: 2em auto;
+}
+
+/* --- Styles for form elements --- */
+h1,
+h2 {
+  text-align: center;
+  color: #0056b3;
+}
+form,
+fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  border: none;
+  padding: 0;
+}
+fieldset {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+legend {
+  padding: 0 0.5em;
+  font-weight: bold;
+  color: #333;
+}
+label {
+  font-weight: 500;
+}
+input[type="tel"],
+textarea {
+  padding: 0.8em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+button {
+  padding: 1em;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* --- Rating Styles (Desktop First) --- */
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Pushes "Poor" and "Excellent" to the edges */
+  gap: 1em;
+}
+/* This is our new container for the radio buttons */
+.rating-inputs {
+  display: flex;
+  justify-content: center;
+  gap: 1em; /* Space between radio buttons */
+}
+
+/* --- Message Styles --- */
+.message {
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 4px;
+  text-align: center;
+}
+.message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+.thank-you-message {
+  text-align: center;
+}
+
+/* --- 👇 ALL MOBILE RESPONSIVE STYLES GO HERE 👇 --- */
+@media (max-width: 768px) {
+  /* Adjust body padding for the smaller mobile navbar */
+  body {
+    padding-top: 66px;
+  }
+
+  /* Make the content card stretch to the screen edges */
+  .content-container {
+    margin: 0;
+    padding: 1.5em 1em; /* Reduce padding on mobile */
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  /* Make headings slightly smaller on mobile */
+  h1 {
+    font-size: 1.8rem;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  /*
+     * The most important change: Stack the rating controls vertically.
+    */
+  .rating {
+    flex-direction: column; /* Stack "Poor", inputs, and "Excellent" vertically */
+    align-items: center; /* Center them horizontally */
+    gap: 0.8rem; /* Reduce the gap between them */
+  }
+
+  .rating-inputs {
+    gap: 0.5rem; /* Reduce gap between radio buttons */
+    width: 100%;
+    justify-content: space-around; /* Distribute radio buttons evenly */
+  }
+}

@@ -1,0 +1,46 @@
+.navbar {
+  background-color: #a1e7e7; /* A professional dark blue */
+  color: rgb(245, 242, 242);
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  position: fixed; /* Make it stick to the top */
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* Space between logo and title */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar-logo {
+  height: 70px; /* Adjust height as needed */
+  width: auto;
+}
+
+.navbar-title {
+  margin: 5px;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+/* --- 👇 ADD THIS MEDIA QUERY FOR MOBILE DEVICES 👇 --- */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.5rem 1rem; /* Reduce padding on smaller screens */
+  }
+
+  .navbar-logo {
+    height: 40px; /* Make logo slightly smaller */
+  }
+
+  .navbar-title {
+    font-size: 1.1rem; /* Make title font smaller */
+  }
+}
