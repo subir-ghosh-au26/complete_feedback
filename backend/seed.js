@@ -4,288 +4,280 @@ const Trainee = require('./models/Trainee');
 
 const trainees = [
     {
-        "name": "Abhishek Kumar",
-        "mobile": "9631111444"
+        "name": "Satish Kumar",
+        "mobile": "9199520662"
     },
     {
-        "name": "SAURABH KUMAR",
-        "mobile": "9155607525"
+        "name": "PINTU KUMAR",
+        "mobile": "9504543754"
     },
     {
-        "name": "Neha Verma ",
-        "mobile": "8210456498"
+        "name": "Abhilasha kumari",
+        "mobile": "7488280375"
     },
     {
-        "name": "Nivedita sharma",
-        "mobile": "7677250028"
+        "name": "Dipak chandra prakash ",
+        "mobile": "7903901613"
     },
     {
-        "name": "ABHINAW MONU",
-        "mobile": "9122922957"
+        "name": "Suman Kumari sinha sinha ",
+        "mobile": "8709090299"
     },
     {
-        "name": "Md Shahid Raza",
-        "mobile": "7542023939"
+        "name": "Shisheer kumar verma",
+        "mobile": "9097274004"
     },
     {
-        "name": "LALIT KUMAT TIWARI",
-        "mobile": "9123275044"
+        "name": "Shalini Kumari ",
+        "mobile": "8271425205"
     },
     {
-        "name": "Deepak kumar mandal",
-        "mobile": "7542023811"
+        "name": "Kamlesh Kumar",
+        "mobile": "8789991265"
     },
     {
-        "name": "Shilpa Ranjan ",
-        "mobile": "8434053584"
+        "name": "RAJEEV KUMAR SUMAN ",
+        "mobile": "8873558527"
     },
     {
-        "name": "Rakesh Kumar ",
-        "mobile": "8102920080"
+        "name": "NANCY ",
+        "mobile": "8434053828"
     },
     {
-        "name": "Mantu Kumar Singh ",
-        "mobile": "9801782185"
+        "name": "Noorul Islam Hasan",
+        "mobile": "6207862915"
     },
     {
-        "name": "Sanjiv Kumar ",
-        "mobile": "9931059003"
+        "name": "Awadhesh Kumar ",
+        "mobile": "8448727502"
     },
     {
-        "name": "Raman kumar ",
-        "mobile": "9798504843"
+        "name": "AMIT KUMAR SRIVASTAVA",
+        "mobile": "7991153516"
     },
     {
-        "name": "Kumar Praveen",
-        "mobile": "8434047135"
+        "name": "SURAJ KUMAR",
+        "mobile": "8083262323"
     },
     {
-        "name": "Dharambir Kumar ",
-        "mobile": "7782033290"
+        "name": "Subodh kumar ",
+        "mobile": "8271638682"
     },
     {
-        "name": "Amresh kumar jha",
-        "mobile": "9006099930"
+        "name": "Gourav Kumar Mishra",
+        "mobile": "9570364762"
     },
     {
-        "name": "Soni kumari",
-        "mobile": "8102922168"
+        "name": "Chandan kumar ",
+        "mobile": "9123236811"
     },
     {
-        "name": "Shashi Kumar ",
-        "mobile": "9113109159"
+        "name": "Ranjeet Kumar",
+        "mobile": "0957025463"
     },
     {
-        "name": "Pradip Kumar Sharma ",
-        "mobile": "8409803458"
+        "name": "Manoranjan Kumar ",
+        "mobile": "9801458528"
     },
     {
-        "name": "Kumar Manish",
-        "mobile": "9153987692"
+        "name": "Abhishek Kumar Paswan",
+        "mobile": "7870518624"
     },
     {
-        "name": "Sushma kumari",
-        "mobile": "9341515016"
+        "name": "Gaurav kumar",
+        "mobile": "7488461123"
     },
     {
-        "name": "AJEET KUMAR SHARMA",
-        "mobile": "9955460739"
+        "name": "Mamta Kumari ",
+        "mobile": "7488141380"
     },
     {
-        "name": "Ravi Ranjan Kumar ",
-        "mobile": "9006362413"
+        "name": "ANIL KUMAR",
+        "mobile": "9771478637"
     },
     {
-        "name": "Santosh Kumar Ram ",
-        "mobile": "9661406845"
+        "name": "Santosh Kumar Gupta ",
+        "mobile": "9852000960"
     },
     {
-        "name": "Rakesh Paswan ",
-        "mobile": "9631619425"
+        "name": "Amit Shandilya ",
+        "mobile": "7808921831"
     },
     {
-        "name": "Bhardwaz Gagan",
-        "mobile": "0947062272"
+        "name": "Gourav Kumar Saha ",
+        "mobile": "9122827407"
     },
     {
-        "name": "KISHORE CHANDRA",
-        "mobile": "9939464641"
+        "name": "Nitish kumar ",
+        "mobile": "8210314721"
     },
     {
-        "name": "Sanjit Kumar",
-        "mobile": "7050858083"
+        "name": "Raghabendra Mishra ",
+        "mobile": "8709692385"
     },
     {
-        "name": "Vivek Kumar",
-        "mobile": "7549385601"
+        "name": "Butan kumar ",
+        "mobile": "9546079410"
     },
     {
-        "name": "Deepak Kumar ",
-        "mobile": "7870295569"
+        "name": "Subhash Kumar",
+        "mobile": "9608095988"
     },
     {
-        "name": "Harigovind Sahani ",
-        "mobile": "9835092143"
+        "name": "Vijay Kumar Singh ",
+        "mobile": "9263017356"
     },
     {
-        "name": "Sunil Kumar",
-        "mobile": "8521252176"
+        "name": "Mohd Ishtiaq ",
+        "mobile": "8294871023"
     },
     {
-        "name": "Ashutosh Kumar Mishra ",
-        "mobile": "9534380281"
+        "name": "Mukesh Kumar Paswan ",
+        "mobile": "9931031201"
     },
     {
-        "name": "Raj",
-        "mobile": "8102864869"
+        "name": "Amardeep Kumar ",
+        "mobile": "9990039557"
     },
     {
-        "name": "MD ABUBAKAR",
-        "mobile": "7870316786"
+        "name": "Sandeep Kumar ",
+        "mobile": "8102926143"
     },
     {
-        "name": "SUMAN KUMAR",
-        "mobile": "7369005765"
+        "name": "Ashutosh Kumar Verma",
+        "mobile": "7544004860"
     },
     {
-        "name": "MANISH KUMAR",
-        "mobile": "7004486346"
+        "name": "SANTOSH KUMAR THAKUR ",
+        "mobile": "8210926630"
     },
     {
-        "name": "Amit Kumar Pandey ",
-        "mobile": "9470014156"
+        "name": "Shailesh Kumar Singh ",
+        "mobile": "9162492880"
     },
     {
-        "name": "Brejendra Kumar ",
-        "mobile": "9795038757"
+        "name": "Amit Gandhi",
+        "mobile": "7004514252"
     },
     {
-        "name": "RITURAJ VERMA",
-        "mobile": "8709851046"
+        "name": "Shailendra Mohan Jha ",
+        "mobile": "7982529123"
     },
     {
-        "name": "Anand Kumar Milan",
-        "mobile": "7631643600"
+        "name": "Rupa Kumari ",
+        "mobile": "6203779560"
     },
     {
-        "name": "SATYENDRA KUMAR",
-        "mobile": "7484895787"
+        "name": "MANI SHANKAR RAJAK",
+        "mobile": "9631953745"
     },
     {
-        "name": "Nitish Kumar ",
-        "mobile": "9097534215"
+        "name": "Puneet Kumar ",
+        "mobile": "8294307346"
     },
     {
-        "name": "Niranjan  Kumar ",
-        "mobile": "0797906526"
+        "name": "Shubhankar Kamati ",
+        "mobile": "7549213974"
     },
     {
-        "name": "Manoj kumar yuvraj",
-        "mobile": "7367883770"
+        "name": "Neeraj kumar ",
+        "mobile": "7903896015"
     },
     {
-        "name": "Santosh Kumar Singh ",
-        "mobile": "7004573131"
+        "name": "Md Shakib",
+        "mobile": "7544019641"
     },
     {
-        "name": "Ashutosh Anand ",
-        "mobile": "9939070619"
+        "name": "MANOJ KUMAR ",
+        "mobile": "9102538221"
     },
     {
-        "name": "Chandan Kumar Singh ",
-        "mobile": "9304445389"
+        "name": "Sanjay Kumar ",
+        "mobile": "9262299270"
     },
     {
-        "name": "Neetu Kumari",
-        "mobile": "7667679137"
+        "name": "Sunil Parit",
+        "mobile": "7367935371"
     },
     {
-        "name": "Training programme for office assistant of jeevika ",
-        "mobile": "8210483896"
+        "name": "Krishna Mohan Singh",
+        "mobile": "7808921782"
     },
     {
-        "name": "Santosh Kumar Roy ",
-        "mobile": "8825135748"
+        "name": "Namita kumari ",
+        "mobile": "7808922171"
     },
     {
-        "name": "NAWNEET KUMAR",
-        "mobile": "9334913471"
+        "name": "Mukul Kumar Singh ",
+        "mobile": "7070973557"
     },
     {
-        "name": "Om Prakash Tiwari ",
-        "mobile": "7488285721"
+        "name": "Sapan kumar ",
+        "mobile": "9334129113"
     },
     {
-        "name": "SANJEEV KUMAR ",
-        "mobile": "7488433285"
+        "name": "Anshuman",
+        "mobile": "9471677640"
     },
     {
-        "name": "Rohit Kumar ",
-        "mobile": "9304629027"
+        "name": "ARUN KUMAR BHARTI",
+        "mobile": "7352928284"
     },
     {
-        "name": "Vikash Kumar",
-        "mobile": "9709461986"
+        "name": "Pancham Lal sangam",
+        "mobile": "9570687545"
     },
     {
-        "name": "Anand kumar Anand ",
-        "mobile": "7549381538"
+        "name": "Mohit Kumar",
+        "mobile": "7717797401"
     },
     {
-        "name": "Ravi Kumar",
-        "mobile": "9507162514"
+        "name": "Md Kasim",
+        "mobile": "7781008467"
     },
     {
-        "name": "Upendra Kumar Das",
-        "mobile": "9576182920"
+        "name": "Amit Kumar ",
+        "mobile": "8409029194"
     },
     {
-        "name": "MANIK CHANDRA",
-        "mobile": "9708059134"
+        "name": "Ritesh Kumar",
+        "mobile": "8340318804"
     },
     {
-        "name": "Kuldeep Kumar",
-        "mobile": "9304650151"
+        "name": "AMRIT KUMAR",
+        "mobile": "7631863079"
     },
     {
-        "name": "VIBHUTI KUMAR BHUSHAN",
-        "mobile": "9534313516"
+        "name": "Bikash Kumar",
+        "mobile": "0953434070"
     },
     {
-        "name": "Alok kumar singh ",
-        "mobile": "9031033292"
+        "name": "Ashutosh Kumar ",
+        "mobile": "9931767209"
     },
     {
-        "name": "Anish Kumar Thakur ",
-        "mobile": "6202142256"
+        "name": "Suman Jha",
+        "mobile": "9472811596"
     },
     {
-        "name": "ALOK KUMAR",
-        "mobile": "9709530698"
+        "name": "Sujeet Kumar Sinha ",
+        "mobile": "7004548344"
     },
     {
-        "name": "PUSHKAR KUMAR",
-        "mobile": "6200419120"
+        "name": "Vijay Jaiswal",
+        "mobile": "9572727772"
     },
     {
-        "name": "Mahendra Kumar ",
-        "mobile": "8083370528"
+        "name": "Ashvani Kumar",
+        "mobile": "8651828610"
     },
     {
-        "name": "Rahul Kumar ",
-        "mobile": "9304289613"
+        "name": "Saurabh Kumar ",
+        "mobile": "7667800569"
     },
     {
-        "name": "Ranjan kumar",
-        "mobile": "8102923102"
-    },
-    {
-        "name": "Ghanshyam Singh",
-        "mobile": "8102923105"
-    },
-    {
-        "name": "AJAY KUMAR GUPTA",
-        "mobile": "7979013399"
+        "name": "Gaurav Kumar",
+        "mobile": "9931023869"
     }
 ];
 
