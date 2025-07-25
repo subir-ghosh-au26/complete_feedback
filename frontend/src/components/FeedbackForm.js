@@ -69,7 +69,8 @@ const FeedbackForm = () => {
     return (
         <div>
             <Navbar />
-            <h2>Feedback for {trainee.name}</h2>
+
+            <h2>Welcome {trainee.name}</h2>
             <h3>Please rate the following on a scale of 1 to 5.</h3>
             <form onSubmit={handleSubmit}>
                 <div className="form-group">

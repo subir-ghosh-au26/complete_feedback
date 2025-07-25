@@ -1,13 +1,13 @@
 .navbar {
   background-color: #a1e7e7; /* A professional dark blue */
   color: rgb(245, 242, 242);
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 100%;
-  position: fixed; /* Make it stick to the top */
+  position: fixed;
   top: 0;
   left: 0;
-  z-index: 1000;
+  z-index: 100;
 }
 
 .navbar-content {
