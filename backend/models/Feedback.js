@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const FeedbackSchema = new mongoose.Schema({
     trainee: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'Trainee', // Links this feedback to a specific trainee
+        ref: 'Trainee',
         required: true,
     },
     courseContentRating: { type: Number, min: 1, max: 5, required: true },
